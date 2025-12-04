@@ -1,0 +1,21 @@
+﻿#pragma kernel TextureToTensor
+
+Texture2D<float> InputTexture;
+RWBuffer<float> OutputTensor;
+
+[numthreads(4, 4, 1)]
+void TextureToTensor(uint2 tid : SV_DispatchThreadID)
+{
+    // Asegúrate de que el tamaño de Dispatch sea 120/4 = 30
+    uint width = 120;
+    uint height = 120;
+
+    // Puedes conservar el flip si tu modelo lo espera, o quitarlo
+    // Flip vertical: (height - 1 - tid.y)
+    uint gid = (height - 1 - tid.y) * width + tid.x;
+
+    // Si no quieres el flip, usa simplemente:
+    // uint gid = tid.y * width + tid.x;
+
+    OutputTensor[gid] = InputTexture[tid];
+}
