@@ -10,15 +10,13 @@ El proyecto incluye varias actividades de aprendizaje:
 
 -   **Módulos de aprendizaje interactivos**: Lecciones estructuradas para un aprendizaje progresivo.
 -   **Ejercicios de Sonido**: Actividades para asociar letras con sus sonidos.
--   **Sopa de Letras**: Juego clásico para el reconocimiento de palabras.
+-   **Sopa de Letras**: Juego clásico para el reconocimiento de letras.
 -   **Lienzo de Escritura**: Un espacio para practicar la escritura a mano alzada.
 
 ## Detalles Técnicos
 
 -   **Motor**: Unity 2021.3.8f1 (o superior)
--   **Scripts Principales**:
-    -   `Principal.cs`: Actúa como el controlador principal de la aplicación, gestionando la lógica de los módulos de aprendizaje.
-    -   `UIManager.cs`: Gestiona la navegación y la presentación de las diferentes vistas (pantallas) de la aplicación.
+
 
 ## ¿Cómo Empezar?
 
