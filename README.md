@@ -5,6 +5,7 @@
 "Letras Vivas" es una aplicación educativa desarrollada en Unity diseñada para enseñar a leer y escribir a través de una serie de juegos y ejercicios interactivos.
 Actualmente, el proyecto se encuentra en una fase de desarrollo **Pre-Alpha**. Aún falta terminar varios módulos.
 
+
 ## Características
 
 El proyecto incluye varias actividades de aprendizaje:
@@ -31,6 +32,11 @@ El proyecto incluye varias actividades de aprendizaje:
 Puedes ver una demostración en video en nuestro canal de YouTube:
 
 [▶️ Ver el Video de Turing Bot](https://youtu.be/jtn76EVn64I?si=IDth6oT6TS1kKabt)
+
+## 👥 Créditos
+
+* **Fernado Cruz:** Diseño de Mockup en Figma, Conceptualización UI/UX.
+* **Erwin Cordero:** Maquetado de Interfaz, Programación en C# y Desarrollo en Unity.
 
 ## Estructura del Proyecto
 
